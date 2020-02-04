@@ -15,6 +15,8 @@ namespace LoginForm
             lblName.Text = Request.QueryString["UserName"];
             lblEmail.Text = Request.QueryString["UserEmail"];
             lblNumber.Text = Request.QueryString["PhoneNumber"];
+            llbQualification.Text = Request.QueryString["Qualification"];
+            llbGender.Text = Request.QueryString["Gender"];
         }
     }
 }

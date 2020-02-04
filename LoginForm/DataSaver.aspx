@@ -43,6 +43,24 @@
             </asp:Label>
         </td>
     </tr>
+     <tr>
+        <td>
+            <b>Qualification</b>
+        </td>
+        <td>
+            :<asp:Label ID="llbQualification" runat="server">
+            </asp:Label>
+        </td>
+    </tr>
+     <tr>
+        <td>
+            <b>Gender</b>
+        </td>
+        <td>
+            :<asp:Label ID="llbGender" runat="server">
+            </asp:Label>
+        </td>
+    </tr>
 </table>
 </div>
 
