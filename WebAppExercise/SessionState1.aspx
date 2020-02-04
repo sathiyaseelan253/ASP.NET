@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            SESSION STATE-1</div>
+            SESSION STATE Page-1</div>
         <asp:TextBox ID="TextBox1" runat="server" Height="35px" Width="183px"></asp:TextBox>
         <asp:Button ID="Button1" runat="server" Height="28px" OnClick="Button1_Click" style="margin-right: 9px" Text="CHECK ME" Width="142px" />
     </form>
