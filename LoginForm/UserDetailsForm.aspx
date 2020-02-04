@@ -21,24 +21,26 @@
                 
     <tr>
         <td>
-            <b>Name</b>
-        </td>
-        <td>
-             :<asp:TextBox ID="txtName" runat="server">
-                 </asp:TextBox>
-        </td>
-    </tr>
+            <b style="font-size:35px">Name </b><asp:TextBox ID="txtName" runat="server" Height="45px" Width="236px" OnTextChanged="txtName_TextChanged"></asp:TextBox>
+                
                 <br />
+                
                 <br />
     <tr>
         <td>
-            <b>Email</b>
-        </td>
-        <td>
-            :<asp:TextBox ID="txtEmail" runat="server" Height="42px" Width="242px"></asp:TextBox>
+            <b style="font-size:35px">Email</b> <asp:TextBox ID="txtEmail" runat="server" Height="42px" Width="242px"></asp:TextBox>
         </td>
     </tr>
                 <br />
+                <br />
+                <tr>
+        <td>
+            <b style="font-size:35px">Phone Number</b>
+        </td>
+        <td>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtNumber" runat="server" Height="45px" Width="236px"></asp:TextBox>
+        </td>
+    </tr>
                 <br />
                 <br />
                 <br />

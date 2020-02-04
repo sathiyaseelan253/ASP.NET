@@ -34,6 +34,15 @@
             </asp:Label>
         </td>
     </tr>
+        <tr>
+        <td>
+            <b>PhoneNumber</b>
+        </td>
+        <td>
+            :<asp:Label ID="lblNumber" runat="server">
+            </asp:Label>
+        </td>
+    </tr>
 </table>
 </div>
 

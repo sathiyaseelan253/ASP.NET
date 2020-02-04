@@ -11,48 +11,11 @@ namespace LoginForm
     {
         protected void btnSendData_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm2.aspx?UserName=" + txtName.Text.Replace("&", "%26") +
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                "&UserEmail=" + txtEmail.Text.Replace("&", "%26"));
+            Response.Redirect("DataSaver.aspx?UserName= " + txtName.Text.Replace("&", "%26") +          
+           "&UserEmail= " + txtEmail.Text.Replace("&", "%26")+
+            "&PhoneNumber= " + txtNumber.Text.Replace("&", "%26"));
         }
 
-
-
+       
     }
 }
